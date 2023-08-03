@@ -19,7 +19,8 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-
+    void openFile();
+    void saveFile();
 private slots:
     void on_comboBox_activated(int index);
 
